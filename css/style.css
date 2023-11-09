@@ -1,0 +1,334 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    background-image: url(../assets/actergrond_website.jpg);
+    text-align: center;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    font-size: 1.05em;
+}
+header img{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 90px;
+    width: auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.4em;
+    list-style: none;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(167, 185, 167);
+    padding: 0.4em;
+}
+
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+.afbeelding_boven {
+    padding-bottom: 5em;
+}
+
+.afbeelding_midden {
+    width: 375px;
+    height: 100px;
+    background-image: url(..//assets/plant_horizon.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 80px;
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
+
+.afbeelding_onder {
+    background-image: url(../assets/bloemen_ag.jpg);
+    width: 375px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 350px 100px;
+    margin-top: 2em;
+    margin-bottom: 0em
+}
+
+.info_main {
+    background-color: rgb(176, 199, 170);
+    width: 375px;
+    height: 355px;
+    padding-top: 2em;
+}
+
+.info_main h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 0.7em;
+    font-size: 1.3em;
+}
+
+.info_main h2{
+    background: rgb(60, 95, 60);
+    color: white;
+    border-radius: 2em;
+    width: 120px;
+    padding: 11px 17px;
+}
+
+.info_main p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+.info_main p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    letter-spacing: 0.1px;
+    padding-left: 0.5em;
+}
+
+.info_voordelen h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    padding-left: 0.8em;
+    font-size: 1.3em;
+}
+
+.info_voordelen p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 0.8em;
+    font-size: 1.2em;
+}
+
+.voordeel_lees_meer {
+    background: rgb(60, 95, 60);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    margin-left: -1em;
+    border-radius: 3em;
+}
+
+.voordeel_lees_meer{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.voordeel_lees_meer:hover {
+    background: rgb(101, 177, 101);
+}
+
+.footer_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footer_content {
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.footer_content {
+    margin: auto;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+.footer_content {
+    background: rgba(17, 80, 21, 0.671);
+    color: rgb(0, 0, 0);
+    width: 100vw;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.socials li{
+    margin: 0.3em;
+}
+
+.socials:hover {
+    color: white;
+}
+
+.footer {
+    background: rgba(17, 80, 21, 0.671); 
+    padding: 1em;
+    text-align: center;
+}
+
+.footer p{
+    color: rgb(0, 0, 0);
+    font-size: 0.7em;
+    word-spacing: 0.1em;
+    text-transform: capitalize;
+}
+
+.manieren_pag h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    padding-left: 0.8em;
+    font-size: 1.3em;
+}
+
+.manieren_pag p{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+.manieren_pag p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    letter-spacing: 0.1px;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+}
+
+#rooftop {
+    font-weight: 700;
+    font-size: 1.2em;
+    display: flex;
+    align-items: start;
+    padding-bottom: 0.2em;
+}
+
+#rooftop1 {
+    padding-bottom: 0.5em;
+    padding-right: 0.3em;
+    font-size: 1.15em;
+    line-height: 1.2em;
+}
+
+.manieren_pag li {
+    padding-left: 2em;
+    padding-right: 0.3em;
+    padding-top: 0.5em;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4em;
+    font-size: 1.2em;
+
+}
+
+#balkon {
+    font-weight: 700;
+    font-size: 1.2em;
+    display: flex;
+    align-items: start;
+    padding-bottom: 0.2em;
+    padding-top: 1.5em;
+}
+
+#balkon1 {
+    padding-bottom: 0.5em;
+    padding-right: 0.3em;
+    font-size: 1.15em;
+    line-height: 1.2em; 
+}
+
+.witruimte_manier {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 2em;
+    width: 2em;
+}
+
+.afbeelding_midden2 {
+    width: 375px;
+    height: 100px;
+    background-image: url(..//assets/bloem_horizon.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 90px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.afbeelding_onder2 {
+    width: 375px;
+    height: 100px;
+    background-image: url(..//assets/bosjes-achtergrond.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 90px;
+    margin-top: 1em;
+    margin-bottom: -0.7em;
+}
+
+.kop {
+    font-weight: 700;
+    font-size: 1.2em;
+    display: flex;
+    align-items: start;
+    padding-bottom: 0.2em;
+    padding-top: 1em;
+}
+
+.omschrijving {
+    padding-bottom: 0.3em;
+    padding-right: 0.3em;
+    font-size: 1.15em;
+    line-height: 1.2em;
+}
+
+.witruimte_manier {
+    width: 375px;
+    height: 200px;
+    background-image: url(..//assets/boompje.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 180px;
+    margin-top: 1em;
+    margin-bottom: -1.3em;
+}
+
+.afbeelding_midden3 {
+    width: 375px;
+    height: 100px;
+    background-image: url(..//assets/lang_blad.jpg);
+    background-repeat: no-repeat;
+    background-size: 375px 90px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
